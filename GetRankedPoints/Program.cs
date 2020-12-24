@@ -151,7 +151,7 @@ namespace GetRankedPoints
                             else
                             {
                                 int num = (after - before)* -1;
-                                Console.WriteLine($"Congrats you lost: {num} points");
+                                Console.WriteLine($"Yikes you lost : {num} points");
                                 Console.ReadKey();
                                 Environment.Exit(1);
                             }
